@@ -1,0 +1,62 @@
+@media (max-width: 640px) {
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  .featured-section,
+  .patterns-section,
+  .workflow-section {
+    padding: 68px 0;
+  }
+
+  .section-heading {
+    gap: 18px;
+    padding-bottom: 24px;
+  }
+
+  .section-heading h2,
+  .about-section h2 {
+    max-width: 100%;
+    font-size: 30px;
+    line-height: 1.18;
+    overflow-wrap: anywhere;
+  }
+
+  .section-heading .eyebrow {
+    margin-bottom: 12px;
+  }
+
+  .section-intro {
+    font-size: 13px;
+    line-height: 1.75;
+  }
+
+  .feature-commerce {
+    overflow: hidden;
+  }
+
+  .commerce-grid {
+    width: 100%;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: start;
+  }
+
+  .commerce-grid img {
+    width: 100%;
+    height: auto;
+    min-height: 0;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+  }
+
+  .patterns-section {
+    position: relative;
+    z-index: 1;
+  }
+
+  .collection-stack {
+    margin-top: 42px;
+  }
+}
